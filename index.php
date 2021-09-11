@@ -1,6 +1,6 @@
 <?php
 if ( !isset( $_SESSION['selected'] ) ) {
-    $_SESSION['selected'] = 'student';
+    $_SESSION['selected'] = 'student';     //Setting Student as the selected tab when loading for the first time
 }
 include 'functions.php';
 include 'connect.php';
